@@ -38,7 +38,7 @@ function AuthForm() {
 
   return (
     <div className="h-screen flex items-center justify-center bg-gray-100">
-      <div className="relative w-[800px] h-[450px] flex overflow-hidden rounded-lg shadow-lg bg-white">
+      <div className="relative w-[800px] h-[500px] flex overflow-hidden rounded-lg shadow-lg bg-white">
         <motion.div
           initial={{ x: 0 }}
           animate={{ x: mode === "login" ? 0 : "100%" }}
@@ -118,7 +118,7 @@ function AuthForm() {
             </div>
               <div className="flex gap-2 items-center">
                 <input type="checkbox" id="chek" />
-                <label htmlFor="chek" className="text-gray-500"> remember me</label>
+                <label htmlFor="chek" className="text-gray-500 my-2 cursor-pointer"> remember me</label>
               </div>
             <button
               type="submit"
