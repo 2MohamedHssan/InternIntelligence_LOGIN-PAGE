@@ -132,7 +132,7 @@ function AuthForm() {
           <div className="text-center mt-4">
             {mode === "login" ? (
               <p className="text-sm text-start text-gray-500">
-                Don't have an account? {" "}
+                Don&apos;t have an account?
                 <button
                   onClick={() => setMode("register")}
                   className="text-blue-500 hover:text-blue-700 transition"
